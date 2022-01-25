@@ -76,7 +76,7 @@ const init = () => {
         }
         const htmlPageContent = generateMarkdown(answers,badge) ;
        
-        fs.writeFile('README.md', htmlPageContent, (err) =>
+        fs.writeFile('ApplicationREADME.md', htmlPageContent, (err) =>
           err ? console.log(err) : console.log('Successfully created index.js!')
         );
       });
