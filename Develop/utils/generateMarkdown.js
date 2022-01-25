@@ -1,7 +1,7 @@
 // TODO: Create a function to generate markdown for README
 
 
-function generateMarkdown(data) {
+function generateMarkdown(data,licenseName) {
   
   return `# ${data.ProjectName}
 
@@ -18,7 +18,7 @@ function generateMarkdown(data) {
   ## Installation 
   ${data.Installation}
 
-  ##Usage 
+  ## Usage 
   ${data.Instruction}
 
   ## Credits
@@ -26,13 +26,11 @@ function generateMarkdown(data) {
   List your contributers 
   ${data.github}
 
-  ## Badges
+  ## Badges (${data.license})
 
-  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-  Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-
+    ## License 
+  
+    ${licenseName}
 
   ## Contact
   

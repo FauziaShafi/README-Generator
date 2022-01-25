@@ -1,30 +1,35 @@
-# My README Generator
+# MY README-Generator
 
   ## Description
-  This project will generate a README.md file
+  This is a command line application to generate a README.md file.
 
   ## Table of Contents 
     
-  - [Installation](#Installation)
-  - [Usage](#Usage)
-  - [Credits](#Credits)
- 
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
 
   ## Installation 
-  install inquirer
+  Install Inquirer and node
 
   ## Usage 
-  You can enter details about your project and it will generate README.md file for your project
+  Answer the prompt 
 
   ## Credits
 
   List your contributers 
   NA
 
+  ## Badges (MIT)
+
+    ## License 
+  
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Contact
   
-  *Github  fauziashafi
+  *Github  FauziaShafi
   *mail  fauziashafi2@gmail.com
 
 
