@@ -34,7 +34,7 @@ function generateMarkdown(data,licenseName) {
 
   ## Contact
   
-  *Github  ${data.contactGithub}
+  *Github  ${data.contactGithub} <br>
   *mail  ${data.mail}
 
 
